@@ -1,0 +1,75 @@
+/*
+Theme name:Shiva Concept Blog
+
+Author: xyz
+
+*/
+*
+{
+	margin: 0px;
+}
+
+#container
+{
+	height:700;
+}
+
+header
+{
+	height: 100px;
+	background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+li {
+ display: block;
+ transition-duration: 0.5s;
+}
+
+li:hover {
+  cursor: pointer;
+}
+header ul li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+header ul li a
+{
+	color:white;
+	font-size: 22px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+header ul li ul
+{
+	visibility: hidden;
+	opacity: 0;
+    position: absolute;
+  margin-top: 2px;
+  left:5px;
+ 
+
+  display: none;
+}
+header ul li:hover > ul,header ul li ul:hover
+{
+    visibility: visible;
+  opacity: 1;
+  display: block;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+section
+{
+
+	height: 500px;
+	background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+footer
+{
+	height: 100px;
+	background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
